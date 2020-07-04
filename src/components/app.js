@@ -19,7 +19,12 @@ const items = [
 ];
 
 const App = () => {
-	return <Accordion items={items} />;
+	return (
+		<React.Fragment>
+			<br />
+			<Accordion items={items} />
+		</React.Fragment>
+	);
 };
 
 export default App;

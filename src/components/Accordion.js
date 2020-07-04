@@ -1,16 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Accordion = (props) => {
-	
+	const [ inputValue, setInputValue ] = useState(null);
 
-	const renderedList = props.items.map((item) => {
+	const onClick = (index) => {
+		setInputValue(index);
+	};
+
+	const renderedList = props.items.map((item, index) => {
+		const active = inputValue === index ? 'active' : '';
+
 		return (
 			<React.Fragment key={item.title}>
-				<div className="title active">
+				<div
+					className={`title ${active}`}
+					onClick={() => {
+						onClick(index);
+					}}
+				>
 					<i className="dropdown icon" />
 					{item.title}
 				</div>
-				<div className="content active">
+				<div className={`content ${active}`}>
 					<p>{item.content}</p>
 				</div>
 			</React.Fragment>
