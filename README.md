@@ -17,4 +17,9 @@ v1.2
 v1.3
     semantic ui for accordion list
 
+--------------------------------------------------------------------------
+
+v1.4
+    accordion list created and activated using onClick+useState hook
+
 
