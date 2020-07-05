@@ -27,4 +27,9 @@ v1.4
 v1.5
     useEffect to detect search term changing and request to api
 
+--------------------------------------------------------------------------
+
+v1.6
+    axios async request to wiki api
+
 
