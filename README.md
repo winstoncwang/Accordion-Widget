@@ -22,4 +22,9 @@ v1.3
 v1.4
     accordion list created and activated using onClick+useState hook
 
+--------------------------------------------------------------------------
+
+v1.5
+    useEffect to detect search term changing and request to api
+
 
