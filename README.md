@@ -37,4 +37,9 @@ v1.6
 v1.7
     adding wiki link for user to check on
 
+--------------------------------------------------------------------------
+
+v1.8
+    debouncing using useEffect and separating second argument to eliminate error
+
 
