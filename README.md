@@ -32,4 +32,9 @@ v1.5
 v1.6
     axios async request to wiki api
 
+--------------------------------------------------------------------------
+
+v1.7
+    adding wiki link for user to check on
+
 
