@@ -42,4 +42,9 @@ v1.7
 v1.8
     debouncing using useEffect and separating second argument to eliminate error
 
+--------------------------------------------------------------------------
+
+v2.1
+    jsx block for dropdown menu
+
 
