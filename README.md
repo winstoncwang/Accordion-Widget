@@ -52,4 +52,9 @@ v2.1
 v2.2
     add selected useState to the dropdown
 
+--------------------------------------------------------------------------
+
+v2.3
+    fixing dropdown not closing after clicking area not created by dropdown component using useRef
+
 
