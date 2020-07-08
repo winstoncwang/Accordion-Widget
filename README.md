@@ -47,4 +47,9 @@ v1.8
 v2.1
     jsx block for dropdown menu
 
+--------------------------------------------------------------------------
+
+v2.2
+    add selected useState to the dropdown
+
 
