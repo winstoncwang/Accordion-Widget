@@ -57,4 +57,9 @@ v2.2
 v2.3
     fixing dropdown not closing after clicking area not created by dropdown component using useRef
 
+--------------------------------------------------------------------------
+
+v2.4
+    bind the addEventListener and use cleanup function to prevent null error with ref.current
+
 
