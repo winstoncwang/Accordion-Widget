@@ -36,7 +36,7 @@ const options = [
 ];
 
 const App = () => {
-	const [ selection, setSelection ] = useState(options[0]);
+	const [ selected, setSelectedChange ] = useState(options[0]);
 
 	return (
 		<React.Fragment>
@@ -44,8 +44,8 @@ const App = () => {
 			{/* <Accordion items={items} /> */}
 			{/* <Search /> */}
 			<Dropdown
-				selection={selection}
-				onSelectionChange={setSelection}
+				selected={selected}
+				onSelectedChange={setSelectedChange}
 				options={options}
 			/>
 		</React.Fragment>
