@@ -26,7 +26,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
 
 		return (
 			<div
-				key={options.value}
+				key={option.value}
 				className="item"
 				onClick={() => {
 					onSelectedChange(option);
@@ -38,7 +38,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
 	});
 
 	return (
-		<div className="ui container" ref={ref}>
+		<div className="ui" ref={ref}>
 			<div className="ui form">
 				<div className="field">
 					<label className="label">{label}</label>
