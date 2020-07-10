@@ -77,4 +77,9 @@ v2.6
 v2.7
     convert component created with input text and language, will be used to translate via google translate api
  
+--------------------------------------------------------------------------
+
+v2.8
+    axios request, output display, debounce onchange input
+ 
 
