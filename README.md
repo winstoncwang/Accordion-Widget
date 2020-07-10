@@ -62,4 +62,9 @@ v2.3
 v2.4
     bind the addEventListener and use cleanup function to prevent null error with ref.current
 
+--------------------------------------------------------------------------
+
+v2.5
+    translate.js hooked with dropdown component
+
 
