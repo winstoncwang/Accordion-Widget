@@ -71,5 +71,10 @@ v2.5
 
 v2.6
     input box added for retrieving values
+ 
+--------------------------------------------------------------------------
 
+v2.7
+    convert component created with input text and language, will be used to translate via google translate api
+ 
 
