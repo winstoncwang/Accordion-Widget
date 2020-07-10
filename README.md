@@ -67,4 +67,9 @@ v2.4
 v2.5
     translate.js hooked with dropdown component
 
+--------------------------------------------------------------------------
+
+v2.6
+    input box added for retrieving values
+
 
