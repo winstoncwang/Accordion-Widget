@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Dropdown from './Dropdown';
 
 const options = [
@@ -18,13 +18,26 @@ const options = [
 
 const Translate = () => {
 	const [ language, setLanguage ] = useState(options[0]);
+	const [ input, setInput ] = useState('');
 
 	return (
-		<Dropdown
-			selected={language}
-			onSelectedChange={setLanguage}
-			options={options}
-		/>
+		<div className="ui form container">
+			<div className="field">
+				<label>Enter Text</label>
+				<input
+					value={input}
+					onChange={(e) => {
+						setInput(e.target.value);
+					}}
+				/>
+				<Dropdown
+					label="Select a Language"
+					selected={language}
+					onSelectedChange={setLanguage}
+					options={options}
+				/>
+			</div>
+		</div>
 	);
 };
 
