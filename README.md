@@ -87,4 +87,9 @@ v2.8
 v3.1
     navigation around different widgets using custom route component
  
+--------------------------------------------------------------------------
+
+v3.2
+    adding header menu to the whole widget
+ 
 
