@@ -97,4 +97,9 @@ v3.2
 v3.3
     adding link component to prevent any refresh of the page
  
+--------------------------------------------------------------------------
+
+v3.4
+    updating route handler and use setCurrentPath state solely to rerender the route component
+ 
 
