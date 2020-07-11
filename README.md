@@ -82,4 +82,9 @@ v2.7
 v2.8
     axios request, output display, debounce onchange input
  
+--------------------------------------------------------------------------
+
+v3.1
+    navigation around different widgets using custom route component
+ 
 
