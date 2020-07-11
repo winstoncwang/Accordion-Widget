@@ -92,4 +92,9 @@ v3.1
 v3.2
     adding header menu to the whole widget
  
+--------------------------------------------------------------------------
+
+v3.3
+    adding link component to prevent any refresh of the page
+ 
 
