@@ -102,4 +102,9 @@ v3.3
 v3.4
     updating route handler and use setCurrentPath state solely to rerender the route component
  
+--------------------------------------------------------------------------
+
+v3.5
+    add ctrl key function for display widget on a new tab
+ 
 
